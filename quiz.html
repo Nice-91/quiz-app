@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Simple Quiz</h1>
+        <h2>instructions</h2>
+        <ol>
+            <li>The test is out of 100%</li>
+            <li>Each quetion have five marks</li>
+            <li>if you choose the wrong answer the riht answer is highlighted in skyblue</li>
+            <li>if you don't get 70% you will not get certificate</li>
+            <li>you can retry as many times as you want</li>
+        </ol>
+        <p id="score-display">Score: 0</p>
+        <div id="question-container">
+            <p id="question">Loading...</p>
+            <div id="answer-buttons" class="btn-container"></div>
+        </div>
+        <button id="next-btn">Next</button>
+        <p id="result-message"></p>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
