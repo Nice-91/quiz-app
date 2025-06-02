@@ -19,7 +19,7 @@ This project helped me practice and improve my DOM manipulation, event handling,
  📸 Demo
 
 Check out a video demo of the app in action:  
-[Watch on LinkedIn]( https://lnkd.in/dgHhaewW)
+[Watch on LinkedIn](www.linkedin.com/in/nice-iradukunda-192036353)
 
 
 
